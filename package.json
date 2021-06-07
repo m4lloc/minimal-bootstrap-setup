@@ -1,15 +1,14 @@
 {
   "scripts": {
-    "build": "NODE_ENV=production webpack --progress --config webpack.config.js",
-    "watch": "npm run build -- --watch"
+    "watch": "gulp"
   },
   "devDependencies": {
     "bootstrap": "^5.0.1",
+    "bootstrap-icons": "^1.5.0",
     "browser-sync": "^2.26.14",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
     "gulp-minify-css": "^1.2.4",
-    "gulp-sass": "^4.1.0",
-    "bootstrap-icons": "^1.5.0"
+    "gulp-sass": "^4.1.0"
   }
 }

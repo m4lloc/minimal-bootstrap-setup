@@ -4,3 +4,23 @@
 // Replace this with local file
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 // @import "node_modules/bootstrap-icons/css/bootstrap-icons.css";
+
+html, body, .window-height {
+  min-height: 100vh;
+}
+
+.bg-semi-white {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+select.text-center {
+  text-align-last: center;
+}
+
+.btn-primary {
+  @extend .text-white;
+}
+
+.accordion-body {
+  @extend .bg-white;
+}
