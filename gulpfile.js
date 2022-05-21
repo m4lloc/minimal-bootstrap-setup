@@ -1,7 +1,7 @@
 var gulp        = require('gulp');
 var minifyCSS   = require('gulp-minify-css');
 var browserSync = require('browser-sync').create();
-var sass        = require('gulp-sass');
+var sass        = require('gulp-sass')(require('node-sass'));
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
